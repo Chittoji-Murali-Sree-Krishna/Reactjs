@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    text-align: center;
+}
+form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.todo-button{
+    margin-right: 1em;
+    background-color: green;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+.todo-button:hover{
+    color: white;
+}
+.todo-input{
+    width: 250px;
+    height: 1.5rem;
+}
+.todo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0.2em;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    background-color: white;
+    color: black;
+    padding:0.5em 2em;
+    font-weight:bold ;
+}
+.complete-btn{
+    background-color: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0 1em;
+}
+.trash-btn{
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0 1em;
+}
+.completed{
+    text-decoration: line-through;
+    background-color: blue;
+    color: lightgray;
+    opacity: 0.5;
+}

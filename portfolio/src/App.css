@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  color: white ;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: cadetblue;
+  color: white;
+}
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+.myname{
+  text-align: center;
+}
+.myname h1{
+  color: green;
+}
+.myname p{
+  color: red;
+}
+.mypic{
+  width: 300px;
+  height: 400px;
+  margin-top: 2em;
+}
+.logo{
+  font-size: 1.5rem;
+}
+.link{
+  text-decoration: none;
+}
+.green{
+  color: green;
+}
+.red{
+  color: red;
+}
+.greet{
+  display: flex;
+  margin-left:4em ;
+}
+.greet .green{
+  margin-left: 1em;
+}
+.row{
+text-align: left;
+}
+.projectscontainer{
+  text-align: left;
+}
+.blue{
+  color: blue;
+}
+.apricot{
+  color: #F4CBB2;
+  text-decoration: underline;
+}
+.sublinks{
+  display: flex;
+}
+.frontendcodes{
+  margin-left: 4em;
+}
